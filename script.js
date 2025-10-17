@@ -107,7 +107,7 @@ function isElementInViewport(el) {
     const container = document.querySelector(".particles-container")
     if (!container) return
   
-    const particleCount = 50
+    const particleCount = 70
   
     for (let i = 0; i < particleCount; i++) {
       const particle = document.createElement("div")
